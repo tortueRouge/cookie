@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+/* Style général */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size:180px;
+    font-weight: 900;
+}
+
+.equipe{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.vroom{
+    width: 600px;
+}
+
+
+h3 {
+    font-size:35PX;
+    font-weight: 700;
+}
+
+.truc{
+        font-size:20PX;
+        font-weight: 500;
+}
+.nom{
+        font-size:20PX;
+        font-weight: 500;
+
+}
+.intro{
+    font-size:20PX;
+    font-weight: 500;
+}
+/* En-tête */
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
+ 
+
+}
+nav{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+    
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size:30PX;
+}
+
+/* Section principale */
+main {
+    padding: 100px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+}
